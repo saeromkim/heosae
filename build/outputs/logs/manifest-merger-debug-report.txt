@@ -1,0 +1,124 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:16:1-49:12
+MERGED from [com.android.support:support-v13:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/57804fa638ea26c5da4ae86785d31371/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/54500bbbd9ccb5df61ee4b136df6d03c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/21d7884aae0f185d372ce7667b14c8db/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/2bd09e9f62d144ade8c308df0ec3898d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/5ae1dbef7d3857acee0302c2e8366347/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/be082093d8028474fa1b55452b946793/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/7869ebc8fafe376320b1246738371b23/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/57afb0124a94ef4f79e502288e7c55f8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/f79c924a91b8e66357db422500f8cc90/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/f191e482e99f4cb35e0f106ef0a60a22/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/78fe293456f4e2934e29c3c7b2ccba24/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/f28908d995a43c5b0ee784b9ce49abd2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/8fbd1498ce7d40c524c2218a758a177f/AndroidManifest.xml:17:1-24:12
+	package
+		ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:17:5-47
+	xmlns:android
+		ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:16:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:19:5-65
+	android:name
+		ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:19:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:20:22-78
+uses-feature#android.hardware.camera
+ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:21:5-60
+	android:name
+		ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:21:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:22:5-70
+	android:name
+		ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:22:19-67
+application
+ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:24:5-47:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/5ae1dbef7d3857acee0302c2e8366347/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/5ae1dbef7d3857acee0302c2e8366347/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:27:9-41
+	android:icon
+		ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:26:9-38
+	android:allowBackup
+		ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:25:9-35
+	android:theme
+		ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:28:9-45
+activity#com.example.android.camera2basic.CameraActivity
+ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:29:9-31:48
+	android:label
+		ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:31:13-45
+	android:name
+		ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:30:13-43
+activity#com.example.android.camera2basic.MainActivity
+ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:32:9-33:20
+	android:name
+		ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:32:19-47
+activity#com.example.android.camera2basic.Community
+ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:34:9-47
+	android:name
+		ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:34:19-44
+activity#com.example.android.camera2basic.Camera2Fragment2
+ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:35:9-63
+	android:name
+		ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:35:19-51
+activity#com.example.android.camera2basic.SplashActivity
+ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:36:9-46:20
+	android:screenOrientation
+		ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:38:13-49
+	android:theme
+		ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:37:13-47
+	android:name
+		ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:36:19-49
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:40:13-44:29
+action#android.intent.action.MAIN
+ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:41:17-69
+	android:name
+		ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:41:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:43:17-77
+	android:name
+		ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml:43:27-74
+uses-sdk
+INJECTED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml
+INJECTED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml
+MERGED from [com.android.support:support-v13:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/57804fa638ea26c5da4ae86785d31371/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/57804fa638ea26c5da4ae86785d31371/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/54500bbbd9ccb5df61ee4b136df6d03c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/54500bbbd9ccb5df61ee4b136df6d03c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/21d7884aae0f185d372ce7667b14c8db/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/21d7884aae0f185d372ce7667b14c8db/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/2bd09e9f62d144ade8c308df0ec3898d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/2bd09e9f62d144ade8c308df0ec3898d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/5ae1dbef7d3857acee0302c2e8366347/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/5ae1dbef7d3857acee0302c2e8366347/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/be082093d8028474fa1b55452b946793/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/be082093d8028474fa1b55452b946793/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/7869ebc8fafe376320b1246738371b23/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/7869ebc8fafe376320b1246738371b23/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/57afb0124a94ef4f79e502288e7c55f8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/57afb0124a94ef4f79e502288e7c55f8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/f79c924a91b8e66357db422500f8cc90/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/f79c924a91b8e66357db422500f8cc90/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/f191e482e99f4cb35e0f106ef0a60a22/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/f191e482e99f4cb35e0f106ef0a60a22/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/78fe293456f4e2934e29c3c7b2ccba24/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/78fe293456f4e2934e29c3c7b2ccba24/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/f28908d995a43c5b0ee784b9ce49abd2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/f28908d995a43c5b0ee784b9ce49abd2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/8fbd1498ce7d40c524c2218a758a177f/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/jeonjiyun/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/8fbd1498ce7d40c524c2218a758a177f/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml
+INJECTED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml
+		ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml
+		ADDED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/jeonjiyun/Desktop/heosae/Application/src/main/AndroidManifest.xml

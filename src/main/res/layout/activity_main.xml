@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.camera2basic.MainActivity"
+    android:orientation="vertical"
+    android:padding="5sp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="2"
+        android:src="@drawable/main_img"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:padding="40sp"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/btn_cafe"
+                android:text="#카페스타그램"
+                android:layout_gravity="center"
+                android:onClick="mClick"
+                android:background="@drawable/btn_pro"
+                android:layout_margin="10sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/btn_book"
+                android:text="#책스타그램"
+                android:layout_gravity="center"
+                android:onClick="mClick"
+                android:background="@drawable/btn_pro2"
+                android:layout_margin="10sp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/btn_food"
+                android:text="#음식스타그램"
+                android:layout_gravity="center"
+                android:onClick="mClick"
+                android:background="@drawable/btn_pro3"
+                android:layout_margin="10sp"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.5"
+        android:id="@+id/btn_notice"
+        android:text="허세캠을 만든 사람들 /(ㅇㅅㅇ)/"
+        android:onClick="mClick"
+        android:background="@drawable/btn_pro4"
+        android:textColor="#FFD1D1D1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.5"
+        android:text="@string/dev"
+        android:gravity="center"/>
+
+</LinearLayout>
